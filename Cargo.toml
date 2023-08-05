@@ -1,0 +1,11 @@
+[package]
+name = "golden_section_search"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.*" # Use the most up to date bugfix of version 0.8
+lazy_static = "*" # pull in the absolute latest version of lazy_static
+argparse-rs = "*"
